@@ -2,15 +2,15 @@ using System;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 
-class Program
-{
+// class Program
+// {
 
-    public static int AddNumbers(int x, int y)
-    {
-        return x + y;
-    }
-    static void Main(string[] args)
-    {
+//     public static int AddNumbers(int x, int y)
+//     {
+//         return x + y;
+//     }
+//     static void Main(string[] args)
+//     {
         // Console.WriteLine("Hello Sandbox World!");
         // Console.WriteLine("Hello CSE 210 World!");
         // Console.WriteLine("Please enter your name:");
@@ -92,9 +92,9 @@ class Program
         // }
 
 
-        int total = AddNumbers(100,200);
-        Console.WriteLine($"{total}");
+//         int total = AddNumbers(100,200);
+//         Console.WriteLine($"{total}");
 
 
-    }
-}
+//     }
+// }
