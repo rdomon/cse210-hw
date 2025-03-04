@@ -1,5 +1,7 @@
 using System;
 
+
+// use public class syntax
 public class Job
 {
     public string _jobTitle;
