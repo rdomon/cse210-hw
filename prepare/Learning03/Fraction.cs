@@ -1,9 +1,9 @@
 using System;
 
-public class Fraction
+class Fraction
 {
-    private int _top;
-    private int _bottom;
+    private int _top;  //numerator;
+    private int _bottom; //decemalnator
 
 
     public Fraction()
@@ -26,16 +26,11 @@ public class Fraction
 
     public string GetFractionString()
     {
-        // Notice that this is not stored as a member variable.
-        // Is is just a temporary, local variable that will be recomputed each time this is called.
-        string text = $"{_top}/{_bottom}";
-        return text;
+        return $"{_top}/{_bottom}";
     }
 
     public double GetDecimalValue()
     {
-        // Notice that this is not stored as a member variable.
-        // Is will be recomputed each time this is called.
         return (double)_top / (double)_bottom;
 
     }
