@@ -1,4 +1,4 @@
-class Person
+abstract class Person
 {
     private string _firstName;
     private string _lastName;
@@ -32,4 +32,11 @@ class Person
         else
             _height = height;
     }
+
+    public virtual string GetName()
+    {
+        return $"{_firstName} {_lastName}";
+    }
+
+    public abstract string GetHobbies();
 }
